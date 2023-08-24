@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Oswald&display=swap" rel="stylesheet">
     <title>Cia Athletica Manaus</title>
 </head>
 
@@ -21,21 +23,24 @@
                 <td><a href="#">Planos</a></td>
                 <td><a href="#">Horários</a></td>
                 <td id="specificLi"><a href="#">Entrar</a></td>
-                <td><a href="#"><span class="material-symbols-outlined">menu</span></a></td>
+                <td><a href="#"><span class="material-symbols-outlined" id="spanMenu"
+                            onclick="pressionar()">menu</span><span class="material-symbols-outlined" id="spanClose"
+                            ondblclick="pressionarClose()">Close</span>
+                    </a></td>
             </tr>
         </table>
     </header>
-    <div class="divteste">
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero sit voluptatibus pariatur dicta! Ipsa
-            maiores ab quaerat ea sapiente iste neque temporibus
-        </p>
+    <h1>
+        CONVIDE ALGUÉM PARA TREINAR COM VOCÊ!
+    </h1>
+    <div id="div_principal">
+        <h2 id="Texto_principal">Na Cia Athletica, vamos fazer história juntos!</h2>
     </div>
+    <div id="matriculaID"><a href="https://www.google.com" target="_blank">MATRICULE-SE</a></div>
     <section>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam maiores id ut illo, minus aliquid deleniti
-            laudantium enim eius nam necessitatibus molestias officiis tenetur expedita distinctio sapiente quasi neque
-            recusandae?</p>
+        <p></p>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>

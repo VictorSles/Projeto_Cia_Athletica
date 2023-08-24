@@ -6,10 +6,9 @@
     margin: 0;
 }
 body{
-    background-color: blanchedalmond;
-    background-image: url(../imagens/background.jpg);
+    background-image: url(../imagens/musculacao.jpg);
     background-repeat: no-repeat;
-    background-size: 1096px;
+    background-size: 100%;
 }
 img#imagem_principal{
     width: 200px;
@@ -27,16 +26,24 @@ table{
     font-family: var(--fonte_padrao);
     font-size: 1.5em;
     position: relative;
-    left: 230px;
-    bottom: 95px;
+    left: 350px;
+    bottom: 85px;
 }
 table{
     border-collapse: collapse;
 }
 table > tr, td, a{
-    padding: 20px;
+    padding: 15px;
     text-decoration: none;
-    color: rgb(255, 149, 0);
+    color: white;
+}
+span#spanMenu{
+    font-size: 1.5em;
+    
+}
+span#spanClose{
+    font-size: 1.5em;
+    display: none;
 }
 a:hover{
     font-size: 1.4em;
@@ -52,6 +59,57 @@ td#specificLi{
 td#specificLi:hover{
     background-color: rgba(134, 134, 134, 0.521);
     transition: 0.4s;
+}
+h1{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6em;
+    text-align: center;
+    position: relative;
+    bottom: 175px;
+    padding-bottom: 20px;
+}
+h2#Texto_principal{
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    font-size: 2em;
+    position: relative;
+    bottom: 195px;
+    text-align: center;
+}
+div#matriculaID{
+    width: 160px;
+    background-color: #d70626;
+    margin: auto;
+    position: relative;
+    bottom: 170px;
+    text-align: center;
+    padding: 10px;
+}
+div#matriculaID > a {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+div#matriculaID > a:hover{
+    font-size: 2em;
+    transition: 0.4s;
+}
+div#matriculaID > a:not(:hover){
+    font-size: 1.7em;
+    transition: 0.4s;
+}
+div#matriculaID:hover{
+    width: 190px;
+}
+section{
+    width: 99.85%;
+    height: 500px;
+    background-color: rgba(245, 245, 245, 0.269);
+    border: 1px solid black;
+    position: relative;
+    bottom: 43px;
 }
 
 
