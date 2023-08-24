@@ -11,84 +11,47 @@ body{
     background-repeat: no-repeat;
     background-size: 1096px;
 }
-img{
-    width: 100px;
+img#imagem_principal{
+    width: 200px;
     height: 100px;
-    position: absolute;
-}
-div.divteste{
-    position: relative;
-    border: 1px solid black;
-    width: 170px;
-    height: 350px;
-    margin: auto;
-    right: 180px;
-    bottom: 160px;
-    border-radius: 20px;
-    overflow: hidden;
-    background-color: white;
-}
-div.divteste > span, img{
-    position: relative;
-    width: 170px;
-    height: 350px;
-    margin: auto;
-    border-radius: 20px;
-    overflow: hidden;
-    
-}
-div.divteste > p{
-    padding-top: 250px;
-}
-img#imagemMusculacao{
-    width: 100%;
-    height: 70%;
-}
-img#imagemAtividades{
-    top: -80px;
-}
-img#imagemNatacao{
-    top: 1px;
-}
-
-h1{
-    font-family: var(--fonte_padrao);
-    text-align: center;
-    padding: 30px;
-    font-size: 3em;
-    color: aliceblue;
 }
 header{
-    height: 100px;
     width: 100%;
-    background-image: linear-gradient(to right, #d70626, #d70625bc);
+    background-image: linear-gradient(to bottom, #d70626, #d7062500);
     display: inline-table;
+    display: block;
+    height: 300px;
 }
-aside{
-    width: 140px;
-    height: 255px;
-    background-color: #d70626;
-    border-bottom-right-radius: 20px;
-}
-ul > li{
-    padding-left: 10px;
+table{
     color: aliceblue;
     font-family: var(--fonte_padrao);
-    font-size: 1em;
-    line-height: 50px;
+    font-size: 1.5em;
+    position: relative;
+    left: 230px;
+    bottom: 95px;
 }
-ul > li:hover{
-    background-color: #DD495F;
+table{
+    border-collapse: collapse;
+}
+table > tr, td, a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 149, 0);
+}
+a:hover{
+    font-size: 1.4em;
+    transition: 0.4s;
+}
+a:not(:hover){
+    font-size: 1em;
     transition: 0.2s;
 }
-ul > li#specificLi:hover{
-    border-bottom-right-radius: 20px;
-    height: 56px;
-    width: 131px;
-    transition: 1s;
+td#specificLi{
+    border: 4px solid whitesmoke;
 }
-ul > li:active{
-    background-color: #933543;
+td#specificLi:hover{
+    background-color: rgba(134, 134, 134, 0.521);
+    transition: 0.4s;
 }
 
 
