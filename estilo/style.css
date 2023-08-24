@@ -16,6 +16,41 @@ img{
     height: 100px;
     position: absolute;
 }
+div.divteste{
+    position: relative;
+    border: 1px solid black;
+    width: 170px;
+    height: 350px;
+    margin: auto;
+    right: 180px;
+    bottom: 160px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+div.divteste > span, img{
+    position: relative;
+    width: 170px;
+    height: 350px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+div.divteste > p{
+    padding-top: 250px;
+}
+img#imagemMusculacao{
+    width: 100%;
+    height: 70%;
+}
+img#imagemAtividades{
+    top: -80px;
+}
+img#imagemNatacao{
+    top: 1px;
+}
+
 h1{
     font-family: var(--fonte_padrao);
     text-align: center;
