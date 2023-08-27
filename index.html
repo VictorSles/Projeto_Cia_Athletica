@@ -19,12 +19,12 @@
         <img src="imagens/imagem_principal.png.png" alt="imagem_principal" id="imagem_principal">
         <table>
             <tr>
-                <td><a href="#">Sobre</a></td>
-                <td><a href="#">Unidade</a></td>
-                <td><a href="#">Planos</a></td>
-                <td><a href="#">Horários</a></td>
-                <td id="specificLi"><a href="#">Entrar</a></td>
-                <td><a href="#"><span class="material-symbols-outlined" id="spanMenu"
+                <td><a href="#" class="navID">Sobre</a></td>
+                <td><a href="#" class="navID">Unidade</a></td>
+                <td><a href="#" class="navID">Planos</a></td>
+                <td><a href="#" class="navID">Horários</a></td>
+                <td id="specificLi"><a href="#" class="navID">Entrar</a></td>
+                <td><a href="#" class="navID"><span class="material-symbols-outlined" id="spanMenu"
                             onclick="pressionar()">menu</span><span class="material-symbols-outlined" id="spanClose"
                             ondblclick="pressionarClose()">Close</span>
                     </a></td>
@@ -38,11 +38,18 @@
         <h2 id="Texto_principal">Na Cia Athletica, vamos fazer história juntos!</h2>
     </div>
     <div id="matriculaID"><a href="https://www.google.com" target="_blank">MATRICULE-SE</a></div>
-    <section>
+    <section class="sectionOne">
         <h2>ENCONTRE SUA MODALIDADE E MATRICULE-SE</h2>
         <div id="PesquisaId">
-            <input type="text" name="pesquisarModalidade" id="pesquisarModalidade" placeholder="Digite sua localização"><a href="#"><span class="material-symbols-outlined" id="lupa">frame_inspect</span></a>
+            <input type="text" name="pesquisarModalidade" id="pesquisarModalidade" placeholder="Digite sua localização"><a href="#" class="navID"><span class="material-symbols-outlined" id="lupa">frame_inspect</span></a>
         </div>
+        <div id="todasAcademias">
+            <a href="#" id="todasAcademiasLink">VER TODAS AS ACADEMIAS</a>
+        </div>
+    </section>
+    <section class="sectionOne">
+        <h2>UMA EXPERIÊNCIA INESQUECÍVEL</h2>
+        <p class="paragraphID">A trajetória da CIA Athletica ao longo dos anos a solidificou como uma das principais redes de academias do Brasil, sendo reconhecida pelo seu compromisso com a qualidade, inovação e bem-estar dos seus clientes.</p>
     </section>
     <script src="script.js"></script>
 </body>

@@ -57,12 +57,12 @@ span#spanClose {
     display: none;
 }
 
-a:hover {
+.navID:hover {
     font-size: 1.4em;
     transition: 0.4s;
 }
 
-a:not(:hover) {
+.navID:not(:hover) {
     font-size: 1em;
     transition: 0.2s;
 }
@@ -112,44 +112,39 @@ div#matriculaID>a {
     font-weight: bolder;
 }
 
-div#matriculaID>a:hover {
-    font-size: 2em;
-    transition: 0.4s;
-}
-
-div#matriculaID>a:not(:hover) {
-    font-size: 1.7em;
-    transition: 0.4s;
-}
-
 div#matriculaID:hover {
-    width: 190px;
+    background-color: #7d0013;
+    transition: 0.4s;
+}
+div#matriculaID:not(:hover){
+    background-color: #d70626;
+    transition: 0.4s;
 }
 
-section {
+section.sectionOne {
     width: 99.85%;
-    height: 500px;
+    height: 370px;
     background-color: rgba(245, 245, 245, 0.269);
     border: 1px solid black;
     position: relative;
     bottom: 95px;
 }
 
-section>h2 {
+section.sectionOne>h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
     text-align: center;
     position: relative;
     top: 55px;
 }
-section>div#PesquisaId{
+section.sectionOne>div#PesquisaId{
     text-align: center;
     margin: auto;
     position: relative;
     top: 100px;
     left: 40px;
 }
-section>div#PesquisaId>input{
+section.sectionOne>div#PesquisaId>input{
     width: 80%;
     height: 80px;
     border-radius: 50px;
@@ -159,10 +154,38 @@ section>div#PesquisaId>input{
     padding-left: 40px;
     color: rgb(67, 67, 67);
 }
+.paragraphID{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 2.5em;
+    position: relative;
+    top: 80px;
+}
 span#lupa{
     font-size: 5em;
     position: relative;
     right: 90px;
     top: 15px;
     color: #d70626;
+}
+div#todasAcademias{
+    position: relative;
+    float: right;
+    top: 120px;
+    right: 90px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+a#todasAcademiasLink{
+    color: #d70626;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+}
+a#todasAcademiasLink:hover{
+    color: #7d0013;
+    transition: 0.4s;
+}
+a#todasAcademiasLink:not(:hover){
+    color: #d70626;
+    transition: 0.4s;
 }
