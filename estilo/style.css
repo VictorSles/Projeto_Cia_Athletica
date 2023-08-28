@@ -5,6 +5,7 @@
 * {
     padding: 0;
     margin: 0;
+    position: relative;
 }
 
 body {
@@ -35,7 +36,7 @@ table {
     bottom: 85px;
 }
 
-table {
+table#tableHead {
     border-collapse: collapse;
 }
 
@@ -94,9 +95,6 @@ h2#Texto_principal {
     bottom: 195px;
     text-align: center;
 }
-h2#Texto_sessao{
-    color: whitesmoke;
-}
 
 .matriculaID {
     width: 160px;
@@ -138,6 +136,7 @@ section.sectionOne>h2 {
     text-align: center;
     position: relative;
     top: 55px;
+    color: whitesmoke;
 }
 section.sectionOne>div#PesquisaId{
     text-align: center;
@@ -201,4 +200,65 @@ a#todasAcademiasLink:hover{
 a#todasAcademiasLink:not(:hover){
     color: #d70626;
     transition: 0.4s;
+}
+.sectionOne>h2#Texto_sessao_two{
+    color: #424850;
+}
+.sectionOne>h2#Texto_sessao_two>span#spanofIDsection{
+    color: #d70626;
+}
+ul.TableSection_two{
+    width:250px;
+    height: 600px;
+    display: flex;
+    list-style: none;
+    top: 100px;
+    left: 80px;
+    border-radius: 20px;
+}
+ul.TableSection_two>li.tdID{
+    margin-right: 100px;
+    border: 1px solid black;
+}
+.imgSize{
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.h2Section_two{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+}
+.divSection_two{
+    bottom: 10px;
+    width: 100%;
+    background-color: #d70626;
+}
+ul#listA{
+    display: flex;
+    list-style: none;
+    left: 65px;
+}
+.listAclass{
+    margin-right: 50px;
+}
+.listAclass>span{
+    font-size: 3em;
+}
+.subListA{
+    list-style: none;
+    right: 10px;
+}
+.h2Section_two_list{
+    color: #424850;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+.secondItem{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    right: 5px;
 }
