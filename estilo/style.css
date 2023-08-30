@@ -117,7 +117,8 @@ h2#Texto_principal {
     background-color: #7d0013;
     transition: 0.4s;
 }
-.matriculaID:not(:hover){
+
+.matriculaID:not(:hover) {
     background-color: #d70626;
     transition: 0.4s;
 }
@@ -138,14 +139,16 @@ section.sectionOne>h2 {
     top: 55px;
     color: whitesmoke;
 }
-section.sectionOne>div#PesquisaId{
+
+section.sectionOne>div#PesquisaId {
     text-align: center;
     margin: auto;
     position: relative;
     top: 100px;
     left: 40px;
 }
-section.sectionOne>div#PesquisaId>input{
+
+section.sectionOne>div#PesquisaId>input {
     width: 80%;
     height: 80px;
     border-radius: 50px;
@@ -155,12 +158,14 @@ section.sectionOne>div#PesquisaId>input{
     padding-left: 40px;
     color: rgb(67, 67, 67);
 }
-section#sectionOneID{
+
+section#sectionOneID {
     background: url(../imagens/background_2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.paragraphID{
+
+.paragraphID {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     color: whitesmoke;
@@ -170,17 +175,20 @@ section#sectionOneID{
     padding: 20px;
     text-align: center;
 }
-div#matriculaIDreal{
+
+div#matriculaIDreal {
     top: 100px;
 }
-span#lupa{
+
+span#lupa {
     font-size: 5em;
     position: relative;
     right: 90px;
     top: 15px;
     color: #d70626;
 }
-div#todasAcademias{
+
+div#todasAcademias {
     position: relative;
     float: right;
     top: 120px;
@@ -188,27 +196,33 @@ div#todasAcademias{
     font-size: 1.5em;
     font-weight: bold;
 }
-a#todasAcademiasLink{
+
+a#todasAcademiasLink {
     color: #d70626;
     font-family: 'Oswald', sans-serif;
     text-decoration: underline;
 }
-a#todasAcademiasLink:hover{
+
+a#todasAcademiasLink:hover {
     color: #7d0013;
     transition: 0.4s;
 }
-a#todasAcademiasLink:not(:hover){
+
+a#todasAcademiasLink:not(:hover) {
     color: #d70626;
     transition: 0.4s;
 }
-.sectionOne>h2#Texto_sessao_two{
+
+.sectionOne>h2#Texto_sessao_two {
     color: #424850;
 }
-.sectionOne>h2#Texto_sessao_two>span#spanofIDsection{
+
+.sectionOne>h2#Texto_sessao_two>span#spanofIDsection {
     color: #d70626;
 }
-ul.TableSection_two{
-    width:250px;
+
+.TableSection_two {
+    width: 250px;
     height: 560px;
     display: flex;
     list-style: none;
@@ -216,64 +230,166 @@ ul.TableSection_two{
     left: 80px;
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px rgba(87, 87, 87, 0.319);
+    position: absolute;
+    top: 200px;
 }
-ul.TableSection_two>li.tdID{
+
+.TableSection_tree {
+    width: 250px;
+    height: 560px;
+    display: flex;
+    list-style: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(87, 87, 87, 0.319);
+    position: absolute;
+    left: 420px;
+    top: 200px;
+}
+
+.TableSection_four {
+    width: 250px;
+    height: 560px;
+    display: flex;
+    left: 100px;
+    list-style: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(87, 87, 87, 0.319);
+    position: absolute;
+    left: 750px;
+    top: 200px;
+}
+
+li.tdID {
     margin-right: 100px;
     border-radius: 20px;
 }
-.imgSize{
+
+.imgSize {
     width: 250px;
     height: 250px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.h2Section_two{
+
+.h2Section_two {
     color: whitesmoke;
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
     text-align: center;
     padding: 5px;
 }
-.divSection_two{
+
+.divSection_two {
     bottom: 10px;
     width: 100%;
     background-color: #d70626;
 }
-ul#listA{
+
+ul#listA {
     display: flex;
     list-style: none;
     left: 65px;
 }
-.listAclass{
+
+.listAclass {
     right: 20px;
     margin-right: 50px;
 }
-.listAclass>span{
+
+.listAclass>span {
     font-size: 3em;
 }
-.subListA{
+
+.subListA {
     list-style: none;
     right: 10px;
 }
-.h2Section_two_list{
+
+.h2Section_two_list {
     color: #424850;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
     right: 4px;
 }
-.secondItem{
+
+.secondItem {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     right: 5px;
     text-align: center;
-    
+
 }
-hr{
+
+hr {
     width: 80%;
     margin: auto;
     color: #e4e4e4;
 }
-p#paragraphIDSTableSection_two{
+
+p#paragraphIDSTableSection_two {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: justify;
     padding: 10px;
+}
+
+section.sectionTwo{
+    position: absolute;
+    top: 100%;
+    left: 39%;
+    width: 20%;
+    padding: 10px;
+    height: 20px;
+    background-color: #d70626;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 30px;
+}
+section.sectionTwo > div > a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+footer.FootClass {
+    position: relative;
+    background-color: #d70626;
+    top: 400px;
+    background-image: url(../imagens/imagem_principal.png);
+    background-repeat: no-repeat;
+    background-position-y: 30px;
+    height: 270px;
+}
+footer.FootClass > div#centralDivFooter{
+    position: absolute;
+    left: 23%;
+    top: 18%;
+    display: flex;
+}
+footer.FootClass > div#centralDivFooter > div#divFooterOne > ul{
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    list-style: none;
+    line-height: 35px;
+}
+footer.FootClass > div#centralDivFooter > div#divFooterTwo > ul{
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    list-style: none;
+    line-height: 35px;
+    margin-left: 100px;
+}
+footer.FootClass > div#centralDivFooter > div#divFooterOne > h3{
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    line-height: 70px;
+}
+footer.FootClass > div#centralDivFooter > div#divFooterTwo > h3{
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    line-height: 70px;
+    margin-left: 100px;
 }
